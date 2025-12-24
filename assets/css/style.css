@@ -24,6 +24,15 @@ a:hover {
   text-decoration: none;
 }
 
+a[href^="#ref-"] {
+  color: #1f5297;
+}
+
+a[href^="#ref-"]:hover {
+  color: #1f5297;
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
